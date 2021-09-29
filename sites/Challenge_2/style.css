@@ -1,0 +1,130 @@
+:root {
+    --primary-bg-orange: hsl(31, 77%, 52%);
+    --primary-bg-cyan: hsl(184, 100%, 22%);
+    --primary-bg-drkcyan: hsl(179, 100%, 13%);
+    --neutral-txt-transwht: hsla(0, 0%, 100%, 0.75);
+    --neutral-txt-lgtgrey: hsl(0, 0%, 95%);
+}
+
+body {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--neutral-txt-lgtgrey);
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10em;
+}
+
+.sedans {
+    background-color: var(--primary-bg-orange);
+    width: 70%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin: auto;
+    padding: 2rem;
+}
+
+.suvs {
+    background-color: var(--primary-bg-cyan);
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.luxury {
+    background-color: var(--primary-bg-drkcyan);
+    width: 70%;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    margin: auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color: var(--neutral-txt-lgtgrey);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sedanbtn {
+    color: var(--primary-bg-orange);
+}
+
+.sedanbtn:hover {
+    background-color: var(--primary-bg-orange);
+    color: var(--neutral-txt-transwht);
+}
+
+.suvbtn {
+    color: var(--primary-bg-cyan);
+}
+
+.suvbtn:hover {
+    background-color: var(--primary-bg-cyan);
+    color: var(--neutral-txt-transwht);
+}
+
+.luxurybtn {
+    color: var(--primary-bg-drkcyan);
+}
+
+.luxurybtn:hover {
+    background-color: var(--primary-bg-drkcyan);
+    color: var(--neutral-txt-transwht);
+}
+
+button {
+    background-color: var(--neutral-txt-transwht);
+    border: 2px solid var(--neutral-txt-transwht);
+    border-radius: 2em;
+    padding: 0.8em;
+    width: 8em;
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 4em;
+}
+
+p {
+    color: var(--neutral-txt-transwht);
+    font-family: "Lexend Deca", sans-serif;
+}
+
+img {
+    width: 3em;
+}
+
+@media only screen and (min-width: 800px) {
+    .box {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+    .sedans {
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.5em;
+    }
+    .luxury {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
