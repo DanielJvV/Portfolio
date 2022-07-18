@@ -1,0 +1,19 @@
+h1,
+p {
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+.navbar {
+    background-color: #FED2AA;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#internetImg {
+    width: 40%;
+    height: 300px;
+}

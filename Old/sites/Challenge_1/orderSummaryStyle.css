@@ -1,0 +1,91 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background: url("./images/pattern-background-desktop.svg") no-repeat;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: smaller;
+    background-size: 100% 40%;
+}
+
+.outer {
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 20em;
+    background-color: white;
+    text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.inner {
+    background-color: #f8f8f8;
+    font-family: 'Yantramanav', sans-serif;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 1em;
+}
+
+.inner img {
+    width: 2em;
+}
+
+p {
+    color: gray;
+    margin: 0;
+}
+
+.mid {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 5em;
+}
+
+table {
+    margin: auto;
+}
+
+.tblimg {
+    padding-right: 10px;
+}
+
+button {
+    width: 20em;
+    padding: 0.8em;
+    border-radius: 1em;
+    background-color: #3c20c7;
+    color: white;
+    border: none;
+    font-size: 0.9em;
+    margin: 1.5em auto;
+    display: block;
+}
+
+td>a:hover {
+    text-decoration: none;
+}
+
+.cancel {
+    color: grey;
+    text-decoration: none;
+}
+
+.cancel:hover {
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: turquoise;
+}
